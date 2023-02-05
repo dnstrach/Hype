@@ -9,22 +9,42 @@
 /* Begin PBXBuildFile section */
 		D80C880629888AA3006F9060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880529888AA3006F9060 /* AppDelegate.swift */; };
 		D80C880829888AA3006F9060 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880729888AA3006F9060 /* SceneDelegate.swift */; };
-		D80C880A29888AA3006F9060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880929888AA3006F9060 /* ViewController.swift */; };
 		D80C880D29888AA3006F9060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80C880B29888AA3006F9060 /* Main.storyboard */; };
 		D80C880F29888AA5006F9060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80C880E29888AA5006F9060 /* Assets.xcassets */; };
 		D80C881229888AA5006F9060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80C881029888AA5006F9060 /* LaunchScreen.storyboard */; };
+		D80C882029889468006F9060 /* Hype.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C881F29889468006F9060 /* Hype.swift */; };
+		D80C8822298897A4006F9060 /* HypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C8821298897A4006F9060 /* HypeController.swift */; };
+		D80C882429889F49006F9060 /* HypeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C882329889F49006F9060 /* HypeListViewController.swift */; };
+		D80C88272988A224006F9060 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C88262988A224006F9060 /* DateExtension.swift */; };
+		D8820A71298F6B1200F1857F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8820A70298F6B1200F1857F /* User.swift */; };
+		D8820A73298F6EC800F1857F /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8820A72298F6EC800F1857F /* UserController.swift */; };
+		D8820A75298F7A4E00F1857F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8820A74298F7A4E00F1857F /* SignUpViewController.swift */; };
+		D8820A78298F7B5100F1857F /* HypeList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8820A76298F7B5100F1857F /* HypeList.storyboard */; };
+		D8820A7A2990227900F1857F /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8820A792990227900F1857F /* PhotoPickerViewController.swift */; };
+		D8820A7D29903A4600F1857F /* PhotoPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8820A7B29903A4600F1857F /* PhotoPicker.storyboard */; };
+		D8820A7F29903B8C00F1857F /* HypePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8820A7E29903B8C00F1857F /* HypePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D80C880229888AA3006F9060 /* HypeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80C880529888AA3006F9060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D80C880729888AA3006F9060 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D80C880929888AA3006F9060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D80C880C29888AA3006F9060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D80C880E29888AA5006F9060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80C881129888AA5006F9060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D80C881329888AA5006F9060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D80C881929888AB8006F9060 /* HypeDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypeDemo.entitlements; sourceTree = "<group>"; };
+		D80C881F29889468006F9060 /* Hype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hype.swift; sourceTree = "<group>"; };
+		D80C8821298897A4006F9060 /* HypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeController.swift; sourceTree = "<group>"; };
+		D80C882329889F49006F9060 /* HypeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeListViewController.swift; sourceTree = "<group>"; };
+		D80C88262988A224006F9060 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D8820A70298F6B1200F1857F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D8820A72298F6EC800F1857F /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		D8820A74298F7A4E00F1857F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D8820A77298F7B5100F1857F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HypeDemo/Storyboards/Base.lproj/HypeList.storyboard; sourceTree = "<group>"; };
+		D8820A792990227900F1857F /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
+		D8820A7C29903A4600F1857F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HypeDemo/Storyboards/Base.lproj/PhotoPicker.storyboard; sourceTree = "<group>"; };
+		D8820A7E29903B8C00F1857F /* HypePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypePhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +78,81 @@
 			isa = PBXGroup;
 			children = (
 				D80C881929888AB8006F9060 /* HypeDemo.entitlements */,
-				D80C880529888AA3006F9060 /* AppDelegate.swift */,
-				D80C880729888AA3006F9060 /* SceneDelegate.swift */,
-				D80C880929888AA3006F9060 /* ViewController.swift */,
-				D80C880B29888AA3006F9060 /* Main.storyboard */,
-				D80C880E29888AA5006F9060 /* Assets.xcassets */,
-				D80C881029888AA5006F9060 /* LaunchScreen.storyboard */,
-				D80C881329888AA5006F9060 /* Info.plist */,
+				D80C881C29888FFE006F9060 /* Model */,
+				D80C88252988A20C006F9060 /* Controllers */,
+				D80C881B29888FC3006F9060 /* Storyboards */,
+				D80C881A29888FA4006F9060 /* Resources */,
 			);
 			path = HypeDemo;
+			sourceTree = "<group>";
+		};
+		D80C881A29888FA4006F9060 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D80C881329888AA5006F9060 /* Info.plist */,
+				D80C881029888AA5006F9060 /* LaunchScreen.storyboard */,
+				D80C880E29888AA5006F9060 /* Assets.xcassets */,
+				D80C880529888AA3006F9060 /* AppDelegate.swift */,
+				D80C880729888AA3006F9060 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D80C881B29888FC3006F9060 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D80C880B29888AA3006F9060 /* Main.storyboard */,
+				D8820A76298F7B5100F1857F /* HypeList.storyboard */,
+				D8820A7B29903A4600F1857F /* PhotoPicker.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D80C881C29888FFE006F9060 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D80C881F29889468006F9060 /* Hype.swift */,
+				D8820A70298F6B1200F1857F /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D80C881D29889003006F9060 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D80C882329889F49006F9060 /* HypeListViewController.swift */,
+				D8820A74298F7A4E00F1857F /* SignUpViewController.swift */,
+				D8820A792990227900F1857F /* PhotoPickerViewController.swift */,
+				D8820A7E29903B8C00F1857F /* HypePhotoViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D80C881E29889010006F9060 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D80C8821298897A4006F9060 /* HypeController.swift */,
+				D8820A72298F6EC800F1857F /* UserController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		D80C88252988A20C006F9060 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D80C881E29889010006F9060 /* Model Controllers */,
+				D80C881D29889003006F9060 /* View Controllers */,
+				D80C88282988A233006F9060 /* Helpers+Extensions */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D80C88282988A233006F9060 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D80C88262988A224006F9060 /* DateExtension.swift */,
+			);
+			path = "Helpers+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +213,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8820A78298F7B5100F1857F /* HypeList.storyboard in Resources */,
+				D8820A7D29903A4600F1857F /* PhotoPicker.storyboard in Resources */,
 				D80C881229888AA5006F9060 /* LaunchScreen.storyboard in Resources */,
 				D80C880F29888AA5006F9060 /* Assets.xcassets in Resources */,
 				D80C880D29888AA3006F9060 /* Main.storyboard in Resources */,
@@ -140,9 +228,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80C880A29888AA3006F9060 /* ViewController.swift in Sources */,
 				D80C880629888AA3006F9060 /* AppDelegate.swift in Sources */,
+				D80C88272988A224006F9060 /* DateExtension.swift in Sources */,
+				D8820A73298F6EC800F1857F /* UserController.swift in Sources */,
+				D80C8822298897A4006F9060 /* HypeController.swift in Sources */,
+				D80C882429889F49006F9060 /* HypeListViewController.swift in Sources */,
+				D8820A7A2990227900F1857F /* PhotoPickerViewController.swift in Sources */,
+				D8820A7F29903B8C00F1857F /* HypePhotoViewController.swift in Sources */,
 				D80C880829888AA3006F9060 /* SceneDelegate.swift in Sources */,
+				D8820A75298F7A4E00F1857F /* SignUpViewController.swift in Sources */,
+				D80C882029889468006F9060 /* Hype.swift in Sources */,
+				D8820A71298F6B1200F1857F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +259,22 @@
 				D80C881129888AA5006F9060 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D8820A76298F7B5100F1857F /* HypeList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8820A77298F7B5100F1857F /* Base */,
+			);
+			name = HypeList.storyboard;
+			sourceTree = "<group>";
+		};
+		D8820A7B29903A4600F1857F /* PhotoPicker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8820A7C29903A4600F1857F /* Base */,
+			);
+			name = PhotoPicker.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,7 +404,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74AQA4M4HV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HypeDemo/Info.plist;
+				INFOPLIST_FILE = HypeDemo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,7 +415,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dominique-Strachan.HypeDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HypeDemo.DS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +433,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74AQA4M4HV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HypeDemo/Info.plist;
+				INFOPLIST_FILE = HypeDemo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dominique-Strachan.HypeDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HypeDemo.DS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
